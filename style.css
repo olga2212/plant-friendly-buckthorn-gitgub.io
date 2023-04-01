@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    background: #A1FFCE;  
+    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE); 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    letter-spacing: 2px;
+    font-size:40px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+    background: #414d0b;  
+    background: -webkit-linear-gradient(to right, #727a17, #414d0b);  
+    background: linear-gradient(to right, #727a17, #414d0b); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#btn-container {
+    width: 100%;
+    position: fixed;
+    bottom: 60px;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#btn {
+    margin: 10px;
+    padding: 25px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bolder;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+    background: #A1FFCE;  
+    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE); 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#btn:hover {
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+    transform: translateY(-7px);
+    transition: all ease 0.25s;
+    color: #fff;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.footerText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(to right, #b92b27, #1565c0); 
+    background: linear-gradient(to right, #b92b27, #1565c0); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
